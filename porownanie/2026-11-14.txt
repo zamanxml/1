@@ -1,0 +1,161 @@
+Porównanie feedów, 2026-11-14 06:49 czasu PL
+ZRODLO = oryginalny feed, ODBICIE = zamanxml/feed/kompre.xml, NOWY = ten repo, 1.xml (z Shopera)
+
+################ ZRODLO  vs  ODBICIE ################
+ZRODLO: 4113 ofert, ODBICIE: 4113 ofert
+tylko w ZRODLO: 0, tylko w ODBICIE: 0
+wspólne: 4113
+
+################ ZRODLO  vs  NOWY ################
+ZRODLO: 4113 ofert, NOWY: 3482 ofert
+tylko w ZRODLO: 643, tylko w NOWY: 12
+wspólne: 3470
+
+== imgs: 2667 różnic
+  id 451: ZRODLO="['https://sklep998844.shoparena.pl/userdata/public/gfx/d659d39e3614e03d7e97542af98fea37.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/e7"
+         NOWY='[]'
+  id 452: ZRODLO="['https://sklep998844.shoparena.pl/userdata/public/gfx/b26dd78fba75ce37f7975df26f39208a.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/ff"
+         NOWY='[]'
+  id 462: ZRODLO="['https://sklep998844.shoparena.pl/userdata/public/gfx/73761e124b8d154d3e08f4389a702f3b.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/62"
+         NOWY='[]'
+
+== desc: 787 różnic
+  id 469: ZRODLO='"Mysz przewodowa USB - Esperanza Camille XM102K" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej s'
+         NOWY='Mysz przewodowa USB - Esperanza Camille XM102K. Producent: Esperanza.\n\nKażdy produkt jest sprawdzany przed wysyłką, a w razie pytań chętnie doradzimy.'
+  id 543: ZRODLO='"Przewód cyfrowy DVI - DVI" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawności. Oferujemy '
+         NOWY='Przewód cyfrowy DVI - DVI.\n\nKażdy produkt jest sprawdzany przed wysyłką, a w razie pytań chętnie doradzimy.'
+  id 544: ZRODLO='"Nowy Przewód VGA- VGA (D-SUB) 1.5m" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawności. O'
+         NOWY='Nowy Przewód VGA- VGA (D-SUB) 1.5m.\n\nKażdy produkt jest sprawdzany przed wysyłką, a w razie pytań chętnie doradzimy.'
+
+== attrs(kolejność): 509 różnic
+  id 5445: tylko ZRODLO [] | tylko NOWY []
+  id 6281: tylko ZRODLO [] | tylko NOWY []
+  id 6282: tylko ZRODLO [] | tylko NOWY []
+
+== attrs(treść): 339 różnic
+  id 6308: tylko ZRODLO [('Pivot', 'Tak'), ('Regulacja kąta nachylenia', 'Tak'), ('Regulacja wysokości', 'Tak')] | tylko NOWY []
+  id 6333: tylko ZRODLO [('Pivot', 'Tak'), ('Regulacja wysokości', 'Tak')] | tylko NOWY []
+  id 6351: tylko ZRODLO [('Producent', 'Tracer')] | tylko NOWY [('Producent', 'Acer')]
+
+== stock: 41 różnic
+  id 6313: ZRODLO='17'
+         NOWY='16'
+  id 6315: ZRODLO='25'
+         NOWY='22'
+  id 6333: ZRODLO='6'
+         NOWY='0'
+
+== avail: 31 różnic
+  id 6333: ZRODLO='1'
+         NOWY='99'
+  id 6922: ZRODLO='1'
+         NOWY='99'
+  id 6975: ZRODLO='1'
+         NOWY='99'
+
+== basket: 31 różnic
+  id 6333: ZRODLO='1'
+         NOWY='0'
+  id 6922: ZRODLO='1'
+         NOWY='0'
+  id 6975: ZRODLO='1'
+         NOWY='0'
+
+== cat: 15 różnic
+  id 7450: ZRODLO='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7512: ZRODLO='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7515: ZRODLO='Laptopy 14 cali'
+         NOWY='Laptopy'
+
+== price: 2 różnic
+  id 8501: ZRODLO='4679'
+         NOWY='4299'
+  id 9930: ZRODLO='5179'
+         NOWY='5289'
+
+== url: 1 różnic
+  id 9589: ZRODLO='https://kompre.pl/pl/p/Zasilacz-Dell-19.5V-6.7A-130W/9589'
+         NOWY='https://kompre.pl/pl/p/Oryginalny-Zasilacz-Dell-19.5V-6.7A-130W-7.4x5.0mm/9589'
+
+== name: 1 różnic
+  id 9589: ZRODLO='Zasilacz Dell 19.5V 6.7A 130W'
+         NOWY='Oryginalny Zasilacz Dell | 19.5V 6.7A 130W | 7.4x5.0mm'
+
+################ ODBICIE  vs  NOWY ################
+ODBICIE: 4113 ofert, NOWY: 3482 ofert
+tylko w ODBICIE: 643, tylko w NOWY: 12
+wspólne: 3470
+
+== imgs: 2667 różnic
+  id 451: ODBICIE="['https://sklep998844.shoparena.pl/userdata/public/gfx/d659d39e3614e03d7e97542af98fea37.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/e7"
+         NOWY='[]'
+  id 452: ODBICIE="['https://sklep998844.shoparena.pl/userdata/public/gfx/b26dd78fba75ce37f7975df26f39208a.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/ff"
+         NOWY='[]'
+  id 462: ODBICIE="['https://sklep998844.shoparena.pl/userdata/public/gfx/73761e124b8d154d3e08f4389a702f3b.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/62"
+         NOWY='[]'
+
+== desc: 787 różnic
+  id 469: ODBICIE='"Mysz przewodowa USB - Esperanza Camille XM102K" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej s'
+         NOWY='Mysz przewodowa USB - Esperanza Camille XM102K. Producent: Esperanza.\n\nKażdy produkt jest sprawdzany przed wysyłką, a w razie pytań chętnie doradzimy.'
+  id 543: ODBICIE='"Przewód cyfrowy DVI - DVI" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawności. Oferujemy '
+         NOWY='Przewód cyfrowy DVI - DVI.\n\nKażdy produkt jest sprawdzany przed wysyłką, a w razie pytań chętnie doradzimy.'
+  id 544: ODBICIE='"Nowy Przewód VGA- VGA (D-SUB) 1.5m" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawności. O'
+         NOWY='Nowy Przewód VGA- VGA (D-SUB) 1.5m.\n\nKażdy produkt jest sprawdzany przed wysyłką, a w razie pytań chętnie doradzimy.'
+
+== attrs(kolejność): 509 różnic
+  id 5445: tylko ODBICIE [] | tylko NOWY []
+  id 6281: tylko ODBICIE [] | tylko NOWY []
+  id 6282: tylko ODBICIE [] | tylko NOWY []
+
+== attrs(treść): 339 różnic
+  id 6308: tylko ODBICIE [('Pivot', 'Tak'), ('Regulacja kąta nachylenia', 'Tak'), ('Regulacja wysokości', 'Tak')] | tylko NOWY []
+  id 6333: tylko ODBICIE [('Pivot', 'Tak'), ('Regulacja wysokości', 'Tak')] | tylko NOWY []
+  id 6351: tylko ODBICIE [('Producent', 'Tracer')] | tylko NOWY [('Producent', 'Acer')]
+
+== stock: 41 różnic
+  id 6313: ODBICIE='17'
+         NOWY='16'
+  id 6315: ODBICIE='25'
+         NOWY='22'
+  id 6333: ODBICIE='6'
+         NOWY='0'
+
+== avail: 31 różnic
+  id 6333: ODBICIE='1'
+         NOWY='99'
+  id 6922: ODBICIE='1'
+         NOWY='99'
+  id 6975: ODBICIE='1'
+         NOWY='99'
+
+== basket: 31 różnic
+  id 6333: ODBICIE='1'
+         NOWY='0'
+  id 6922: ODBICIE='1'
+         NOWY='0'
+  id 6975: ODBICIE='1'
+         NOWY='0'
+
+== cat: 15 różnic
+  id 7450: ODBICIE='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7512: ODBICIE='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7515: ODBICIE='Laptopy 14 cali'
+         NOWY='Laptopy'
+
+== price: 2 różnic
+  id 8501: ODBICIE='4679'
+         NOWY='4299'
+  id 9930: ODBICIE='5179'
+         NOWY='5289'
+
+== url: 1 różnic
+  id 9589: ODBICIE='https://kompre.pl/pl/p/Zasilacz-Dell-19.5V-6.7A-130W/9589'
+         NOWY='https://kompre.pl/pl/p/Oryginalny-Zasilacz-Dell-19.5V-6.7A-130W-7.4x5.0mm/9589'
+
+== name: 1 różnic
+  id 9589: ODBICIE='Zasilacz Dell 19.5V 6.7A 130W'
+         NOWY='Oryginalny Zasilacz Dell | 19.5V 6.7A 130W | 7.4x5.0mm'

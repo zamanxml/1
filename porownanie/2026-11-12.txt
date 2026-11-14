@@ -1,0 +1,145 @@
+Porównanie feedów, 2026-11-12 10:33 czasu PL
+ZRODLO = oryginalny feed, ODBICIE = zamanxml/feed/kompre.xml, NOWY = ten repo (z Shopera)
+
+################ ZRODLO  vs  ODBICIE ################
+ZRODLO: 4113 ofert, ODBICIE: 4110 ofert
+tylko w ZRODLO: 3, tylko w ODBICIE: 0
+wspólne: 4110
+
+== stock: 33 różnic
+  id 5443: ZRODLO='905'
+         ODBICIE='906'
+  id 6940: ZRODLO='13'
+         ODBICIE='15'
+  id 7090: ZRODLO='46'
+         ODBICIE='47'
+
+== avail: 7 różnic
+  id 9943: ZRODLO='99'
+         ODBICIE='1'
+  id 9944: ZRODLO='99'
+         ODBICIE='1'
+  id 10226: ZRODLO='99'
+         ODBICIE='1'
+
+== basket: 7 różnic
+  id 9943: ZRODLO='0'
+         ODBICIE='1'
+  id 9944: ZRODLO='0'
+         ODBICIE='1'
+  id 10226: ZRODLO='0'
+         ODBICIE='1'
+
+== imgs: 1 różnic
+  id 10574: ZRODLO="['https://sklep998844.shoparena.pl/userdata/public/gfx/106664.png', 'https://sklep998844.shoparena.pl/userdata/public/gfx/106665.jpg', 'https://sklep9"
+         ODBICIE="['https://sklep998844.shoparena.pl/userdata/public/gfx/106664.png', 'https://sklep998844.shoparena.pl/userdata/public/gfx/106665.jpg', 'https://sklep9"
+
+################ ZRODLO  vs  NOWY ################
+ZRODLO: 4113 ofert, NOWY: 3470 ofert
+tylko w ZRODLO: 643, tylko w NOWY: 0
+wspólne: 3470
+
+== imgs: 2754 różnic
+  id 451: ZRODLO="['https://sklep998844.shoparena.pl/userdata/public/gfx/d659d39e3614e03d7e97542af98fea37.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/e7"
+         NOWY='[]'
+  id 452: ZRODLO="['https://sklep998844.shoparena.pl/userdata/public/gfx/b26dd78fba75ce37f7975df26f39208a.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/ff"
+         NOWY='[]'
+  id 462: ZRODLO="['https://sklep998844.shoparena.pl/userdata/public/gfx/73761e124b8d154d3e08f4389a702f3b.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/62"
+         NOWY='[]'
+
+== attrs(kolejność): 509 różnic
+  id 5445: tylko ZRODLO [] | tylko NOWY []
+  id 6281: tylko ZRODLO [] | tylko NOWY []
+  id 6282: tylko ZRODLO [] | tylko NOWY []
+
+== attrs(treść): 337 różnic
+  id 6308: tylko ZRODLO [('Pivot', 'Tak'), ('Regulacja kąta nachylenia', 'Tak'), ('Regulacja wysokości', 'Tak')] | tylko NOWY []
+  id 6333: tylko ZRODLO [('Pivot', 'Tak'), ('Regulacja wysokości', 'Tak')] | tylko NOWY []
+  id 6351: tylko ZRODLO [('Producent', 'Tracer')] | tylko NOWY [('Producent', 'Acer')]
+
+== avail: 24 różnic
+  id 6922: ZRODLO='1'
+         NOWY='99'
+  id 6975: ZRODLO='1'
+         NOWY='99'
+  id 7120: ZRODLO='1'
+         NOWY='99'
+
+== basket: 24 różnic
+  id 6922: ZRODLO='1'
+         NOWY='0'
+  id 6975: ZRODLO='1'
+         NOWY='0'
+  id 7120: ZRODLO='1'
+         NOWY='0'
+
+== cat: 15 różnic
+  id 7450: ZRODLO='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7512: ZRODLO='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7515: ZRODLO='Laptopy 14 cali'
+         NOWY='Laptopy'
+
+== stock: 5 różnic
+  id 6333: ZRODLO='6'
+         NOWY='1'
+  id 9589: ZRODLO='3'
+         NOWY='2'
+  id 9595: ZRODLO='93'
+         NOWY='92'
+
+################ ODBICIE  vs  NOWY ################
+ODBICIE: 4110 ofert, NOWY: 3470 ofert
+tylko w ODBICIE: 643, tylko w NOWY: 3
+wspólne: 3467
+
+== imgs: 2754 różnic
+  id 451: ODBICIE="['https://sklep998844.shoparena.pl/userdata/public/gfx/d659d39e3614e03d7e97542af98fea37.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/e7"
+         NOWY='[]'
+  id 452: ODBICIE="['https://sklep998844.shoparena.pl/userdata/public/gfx/b26dd78fba75ce37f7975df26f39208a.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/ff"
+         NOWY='[]'
+  id 462: ODBICIE="['https://sklep998844.shoparena.pl/userdata/public/gfx/73761e124b8d154d3e08f4389a702f3b.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/62"
+         NOWY='[]'
+
+== attrs(kolejność): 509 różnic
+  id 5445: tylko ODBICIE [] | tylko NOWY []
+  id 6281: tylko ODBICIE [] | tylko NOWY []
+  id 6282: tylko ODBICIE [] | tylko NOWY []
+
+== attrs(treść): 334 różnic
+  id 6308: tylko ODBICIE [('Pivot', 'Tak'), ('Regulacja kąta nachylenia', 'Tak'), ('Regulacja wysokości', 'Tak')] | tylko NOWY []
+  id 6333: tylko ODBICIE [('Pivot', 'Tak'), ('Regulacja wysokości', 'Tak')] | tylko NOWY []
+  id 6351: tylko ODBICIE [('Producent', 'Tracer')] | tylko NOWY [('Producent', 'Acer')]
+
+== stock: 38 różnic
+  id 5443: ODBICIE='906'
+         NOWY='905'
+  id 6333: ODBICIE='6'
+         NOWY='1'
+  id 6940: ODBICIE='15'
+         NOWY='13'
+
+== avail: 31 różnic
+  id 6922: ODBICIE='1'
+         NOWY='99'
+  id 6975: ODBICIE='1'
+         NOWY='99'
+  id 7120: ODBICIE='1'
+         NOWY='99'
+
+== basket: 31 różnic
+  id 6922: ODBICIE='1'
+         NOWY='0'
+  id 6975: ODBICIE='1'
+         NOWY='0'
+  id 7120: ODBICIE='1'
+         NOWY='0'
+
+== cat: 15 różnic
+  id 7450: ODBICIE='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7512: ODBICIE='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7515: ODBICIE='Laptopy 14 cali'
+         NOWY='Laptopy'

@@ -1,0 +1,82 @@
+# Szablony opisów produktów (polski feed). Opis budowany jest z parametrów oferty.
+#
+# Zasady:
+# - [Kategoria 1; Kategoria 2] rozpoczyna szablon dla tych kategorii (nazwy jak w <cat> w feedzie).
+#   [*] = szablon domyślny dla kategorii, które nie mają własnego.
+# - {Nazwa parametru} wstawia wartość parametru (wielkość liter w nazwie nie ma znaczenia).
+# - Jeśli w zdaniu brakuje któregoś parametru (albo ma wartość "Brak", "Nie", "Niezdefiniowany",
+#   "Inny"), CAŁE zdanie wylatuje. Zdanie kończy się kropką, wykrzyknikiem albo pytajnikiem.
+# - Pusta linia = nowy akapit. Linie zaczynające się od # są pomijane.
+# - Dodatki po kresce:
+#     {Parametr|m}   wartość od małej litery ("Zasilacz z przewodem" -> "zasilacz z przewodem")
+#     {Parametr|k}   tylko do pierwszego przecinka ("i5 - 8365U, 6MB Cache" -> "i5-8365U")
+#     {Parametr|tak} nic nie wstawia, ale zdanie zostaje tylko gdy wartość to "Tak..."
+# - Zdanie A. || Zdanie B.  = użyj pierwszego zdania, które ma wszystkie parametry (wersja zapasowa).
+# - Producent pisany WIELKIMI literami (DELL, LENOVO) wstawia się jako Dell, Lenovo; krótkie (HP) zostają.
+# - {Nazwa} to nazwa produktu.
+
+[Laptopy; Laptopy 14 cali; Laptopy 15 cali; Laptopy 17 cali; Laptopy Lenovo; Laptopy Dell; Chromebooki]
+{Producent} {Model} to sprzęt klasy biznesowej, który sprawdzi się w codziennej pracy, nauce i korzystaniu z internetu. Procesor {Seria procesora} ({Procesor|k}) wspierany przez {Ilość pamięci RAM} pamięci RAM pozwala wygodnie pracować z dokumentami, przeglądarką i aplikacjami biurowymi. || Procesor {Seria procesora} wspierany przez {Ilość pamięci RAM} pamięci RAM pozwala wygodnie pracować z dokumentami, przeglądarką i aplikacjami biurowymi. Dysk {Typ dysku} o pojemności {Dysk} zapewnia miejsce na pliki i programy. Za obraz odpowiada karta {Model karty graficznej}.
+
+Ekran o przekątnej {Przekątna ekranu} i rozdzielczości {Rozdzielczość ekranu} zapewnia wygodną przestrzeń do pracy. Matryca jest dotykowa{Ekran dotykowy|tak}. Kamera internetowa ułatwia wideorozmowy i spotkania online{Kamera|tak}. Klawiatura: {Klawiatura (ISO lub ANSI)}. Zainstalowany {Zainstalowany system} pozwala rozpocząć korzystanie z laptopa od razu po jego uruchomieniu.
+
+Sprzęt został przetestowany i przygotowany do pracy. Stan obudowy: {Stan obudowy|m}. Stan ekranu: {Stan ekranu|m}. Bateria: {Bateria|m}. W zestawie znajduje się {W zestawie|m}.
+
+[Tablety]
+{Producent} {Model} to lekki i poręczny tablet z systemem {Zainstalowany system}, który sprawdzi się w pracy, nauce i w podróży. Procesor {Procesor|k} i {Ilość pamięci RAM} pamięci RAM zapewniają płynne działanie aplikacji. Dysk {Typ dysku} o pojemności {Dysk} pomieści dokumenty, zdjęcia i programy.
+
+Ekran o przekątnej {Przekątna ekranu} i rozdzielczości {Rozdzielczość ekranu} jest dotykowy{Ekran dotykowy|tak}. Kamera internetowa ułatwia wideorozmowy{Kamera|tak}.
+
+Sprzęt został przetestowany i przygotowany do pracy. Stan obudowy: {Stan obudowy|m}. Stan ekranu: {Stan ekranu|m}. Uwagi: {Informacje dodatkowe}. W zestawie znajduje się {W zestawie|m}.
+
+[Komputery]
+{Producent} {Model} to niezawodny komputer klasy biznesowej w obudowie {Obudowa}, który sprawdzi się w biurze, w domu i w nauce. Procesor {Seria procesora} ({Procesor|k}) wspierany przez {Ilość pamięci RAM} pamięci RAM {Typ pamięci RAM} zapewnia sprawną pracę z dokumentami, przeglądarką i aplikacjami biurowymi. || Procesor {Seria procesora} wspierany przez {Ilość pamięci RAM} pamięci RAM {Typ pamięci RAM} zapewnia sprawną pracę z dokumentami, przeglądarką i aplikacjami biurowymi. Dysk {Typ dysku} o pojemności {Dysk} zapewnia szybkie uruchamianie systemu i miejsce na pliki. Za obraz odpowiada karta {Model karty graficznej}.
+
+Ekran o przekątnej {Przekątna ekranu} i rozdzielczości {Rozdzielczość ekranu} jest wbudowany w obudowę. Złącza z tyłu: {Złącza z tyłu}. Zainstalowany {Zainstalowany System} pozwala rozpocząć pracę od razu po uruchomieniu.
+
+Sprzęt został przetestowany i przygotowany do pracy. Stan obudowy: {Stan obudowy|m}. W zestawie: {W zestawie|m}.
+
+[Monitory]
+Monitor {Producent} {Model} o przekątnej {Przekątna ekranu} i rozdzielczości {Rozdzielczość ekranu} sprawdzi się w biurze, w domu i jako drugi ekran do laptopa. Matryca {Typ matrycy} z podświetleniem {Podświetlenie} zapewnia czytelny obraz, a odświeżanie wynosi {Częstotliwość odświeżania}. Powłoka matrycy jest {Powłoka matrycy|m}, a jasność to {Jasność matrycy} cd/m².
+
+Złącza: {Złącza zewnętrzne}. Monitor ma regulację wysokości{Regulacja wysokości|tak}. Ekran można obrócić do pionu (pivot){Pivot|tak}. Ma wbudowane głośniki{Wbudowany głośnik|tak}.
+
+Monitor został przetestowany. Stan ekranu: {Stan ekranu|m}. Stan obudowy: {Stan obudowy|m}. Uwagi: {Informacje dodatkowe}. W zestawie: {W zestawie|m}.
+
+[Zasilacze do laptopów]
+{Nazwa}. Zasilacz o mocy {Moc} i napięciu {Napięcie} pozwala ładować sprzęt i pracować na nim bez baterii. || Zasilacz o mocy {Moc} pozwala ładować sprzęt i pracować na nim bez baterii. Przeznaczenie: {Przeznaczenie}. Złącze: {Interfejs}. Informacje: {Informacje dodatkowe}.
+
+Kondycja: {Kondycja|m}. Rodzaj: {Rodzaj|m}. W zestawie: {W zestawie|m}. Każdy zasilacz jest sprawdzany przed wysyłką, a w razie wątpliwości pomożemy dobrać właściwy model do Twojego sprzętu.
+
+[Baterie do laptopów]
+{Nazwa} to bateria o napięciu {Napięcie} V i pojemności {Pojemność}, która przywróci laptopowi pracę bez zasilacza. Pasuje do: {Przeznaczenie}. Model baterii: {Model}.
+
+Kondycja: {Kondycja|m}. Rodzaj: {Rodzaj|m}. Uwagi: {Informacje dodatkowe}. Przed zakupem warto porównać model baterii lub numer części z obecną baterią, a w razie wątpliwości chętnie pomożemy.
+
+[Klawiatury do laptopów]
+{Nazwa} to klawiatura, która pozwoli przywrócić laptopowi pełną sprawność. Pasuje do: {Przeznaczenie}. Układ: {Układ}. Kolor: {Kolor|m}.
+
+Kondycja: {Kondycja|m}. Rodzaj: {Rodzaj|m}. Uwagi: {Informacje dodatkowe}. Każda klawiatura jest sprawdzana przed wysyłką, a w razie wątpliwości pomożemy dobrać właściwy model.
+
+[Obudowy, ramki i zaślepki do laptopów; Matryce do laptopów; Pozostałe części do laptopów; Części do Laptopów; Głośniki; Pamięć RAM do laptopów; Napędy do laptopów; Części do Komputerów; Procesory]
+{Nazwa} to część, która pozwoli naprawić lub odświeżyć laptopa. Pasuje do: {Przeznaczenie}. Model części: {Model}. Kolor: {Kolor|m}. Złącze: {Interfejs}.
+
+Kondycja: {Kondycja|m}. Rodzaj: {Rodzaj|m}. Uwagi: {Informacje dodatkowe}. Każda część jest sprawdzana przed wysyłką, a w razie wątpliwości chętnie pomożemy dobrać odpowiedni model.
+
+[Stacje dokujące]
+{Nazwa} pozwala jednym przewodem podłączyć do laptopa monitory, klawiaturę, mysz, sieć i zasilanie. Pasuje do: {Przeznaczenie}. Złącze: {Interfejs}. Szczegóły: {Informacje dodatkowe}.
+
+Kondycja: {Kondycja|m}. Stan obudowy: {Stan obudowy|m}. W zestawie: {W zestawie|m}.
+
+[Torby na laptopa]
+{Nazwa} to wygodna torba, która ochroni laptopa w podróży i w drodze do pracy. Przeznaczenie: {Przeznaczenie|m}. Kolor: {Kolor|m}. Cechy: {Informacje dodatkowe}.
+
+Kondycja: {Kondycja|m}. Stan: {Stan obudowy|m}. W zestawie: {W zestawie|m}.
+
+[Usługi]
+{Nazwa}. {Informacje dodatkowe}
+
+[*]
+{Nazwa}. Producent: {Producent}. Model: {Model}. Typ: {Typ|m}. Rodzaj: {Rodzaj|m}. Przeznaczenie: {Przeznaczenie}. Złącze: {Interfejs}. Kolor: {Kolor|m}. Szczegóły: {Informacje dodatkowe}.
+
+Kondycja: {Kondycja|m}. W zestawie: {W zestawie|m}. Każdy produkt jest sprawdzany przed wysyłką, a w razie pytań chętnie doradzimy.
