@@ -1,0 +1,44 @@
+name: refresh
+
+on:
+  schedule:
+    # Główny wyzwalacz: Cloudflare (Worker xml-trigger) co godzinę 6:05-15:05 PL i 20:05, 0:05, 4:05 PL.
+    # Ten cron to tylko zapas 2 razy dziennie: zimą 9:10 i 14:10 PL (UTC; latem o godzinę później).
+    - cron: "10 8,13 * * *"
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Pełne pobranie wszystkich produktów i zdjęć"
+        type: boolean
+        default: false
+      porownaj:
+        description: "Zrób porównanie trzech plików"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # Pełne pobranie: pierwszy przebieg w niedzielę albo ręcznie (full).
+      # Porównanie trzech plików: pierwszy przebieg po 6:00 PL, jeśli dziś jeszcze go nie było, albo ręcznie (porownaj).
+      - name: Refresh feed
+        env:
+          SHOPER_URL: ${{ secrets.SHOPER_URL }}
+          SHOPER_TOKEN: ${{ secrets.SHOPER_TOKEN }}
+          SOURCE_URL: ${{ secrets.SOURCE_URL }}
+          FULL_INPUT: ${{ inputs.full || false }}
+          PORO_INPUT: ${{ inputs.porownaj || false }}
+        run: bash odswiez.sh
