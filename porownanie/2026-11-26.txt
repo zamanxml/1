@@ -1,0 +1,161 @@
+Porównanie feedów, 2026-11-26 06:06 czasu PL
+ZRODLO = oryginalny feed, ODBICIE = zamanxml/feed/kompre.xml, NOWY = ten repo, 1.xml (z Shopera)
+
+################ ZRODLO  vs  ODBICIE ################
+ZRODLO: 4139 ofert, ODBICIE: 4139 ofert
+tylko w ZRODLO: 0, tylko w ODBICIE: 0
+wspólne: 4139
+
+################ ZRODLO  vs  NOWY ################
+ZRODLO: 4139 ofert, NOWY: 3498 ofert
+tylko w ZRODLO: 643, tylko w NOWY: 2
+wspólne: 3496
+
+== desc: 3496 różnic
+  id 451: ZRODLO='"Torba do laptopa  - 12" 12,5" 13,3" 14"" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawnoś'
+         NOWY='Torba do laptopa - 12" 12,5" 13,3" 14" to wygodna torba, która ochroni laptopa w podróży i w drodze do pracy.'
+  id 452: ZRODLO='"Torba na laptop FUJITSU SIEMENS 15,6\'\'" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawnośc'
+         NOWY="Torba na laptop FUJITSU SIEMENS 15,6'' to wygodna torba, która ochroni laptopa w podróży i w drodze do pracy."
+  id 462: ZRODLO='"Torba etui do laptopa - PORT - 12,5"" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawności.'
+         NOWY='Torba etui do laptopa - PORT - 12,5" to wygodna torba, która ochroni laptopa w podróży i w drodze do pracy.'
+
+== imgs: 2647 różnic
+  id 451: ZRODLO="['https://sklep998844.shoparena.pl/userdata/public/gfx/d659d39e3614e03d7e97542af98fea37.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/e7"
+         NOWY='[]'
+  id 452: ZRODLO="['https://sklep998844.shoparena.pl/userdata/public/gfx/b26dd78fba75ce37f7975df26f39208a.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/ff"
+         NOWY='[]'
+  id 462: ZRODLO="['https://sklep998844.shoparena.pl/userdata/public/gfx/73761e124b8d154d3e08f4389a702f3b.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/62"
+         NOWY='[]'
+
+== attrs(kolejność): 510 różnic
+  id 5445: tylko ZRODLO [] | tylko NOWY []
+  id 6281: tylko ZRODLO [] | tylko NOWY []
+  id 6282: tylko ZRODLO [] | tylko NOWY []
+
+== attrs(treść): 327 różnic
+  id 5705: tylko ZRODLO [('Marka', 'Hynix'), ('Stan', 'Leżak magazynowy / z demontażu')] | tylko NOWY []
+  id 6308: tylko ZRODLO [('Pivot', 'Tak'), ('Regulacja kąta nachylenia', 'Tak'), ('Regulacja wysokości', 'Tak')] | tylko NOWY []
+  id 6316: tylko ZRODLO [('Kondycja', '"A-" poleasingowy, przetestowany'), ('Stan ekranu', 'Ekran posiada małe ryski')] | tylko NOWY [('Kondycja', '"B" poleasingowy, przetestowany'), ('Stan ekranu', 'Ekran posiada ryski, poświaty')]
+
+== avail: 40 różnic
+  id 6333: ZRODLO='1'
+         NOWY='99'
+  id 6630: ZRODLO='1'
+         NOWY='99'
+  id 6889: ZRODLO='1'
+         NOWY='99'
+
+== basket: 40 różnic
+  id 6333: ZRODLO='1'
+         NOWY='0'
+  id 6630: ZRODLO='1'
+         NOWY='0'
+  id 6889: ZRODLO='1'
+         NOWY='0'
+
+== stock: 27 różnic
+  id 469: ZRODLO='35'
+         NOWY='34'
+  id 6316: ZRODLO='0'
+         NOWY='3'
+  id 6630: ZRODLO='12'
+         NOWY='0'
+
+== cat: 16 różnic
+  id 7450: ZRODLO='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7512: ZRODLO='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7515: ZRODLO='Laptopy 14 cali'
+         NOWY='Laptopy'
+
+== price: 2 różnic
+  id 6316: ZRODLO='120'
+         NOWY='99'
+  id 9966: ZRODLO='59'
+         NOWY='69'
+
+== url: 1 różnic
+  id 6316: ZRODLO='https://kompre.pl/pl/p/Monitor-Philips-241P3L-24-1920-x-1080-A-/6316'
+         NOWY='https://kompre.pl/pl/p/Monitor-Philips-241P3L-24-1920-x-1080-B/6316'
+
+== name: 1 różnic
+  id 6316: ZRODLO='Monitor Philips 241P3L 24" 1920 x 1080 [A-]'
+         NOWY='Monitor Philips 241P3L 24" 1920 x 1080 [B]'
+
+################ ODBICIE  vs  NOWY ################
+ODBICIE: 4139 ofert, NOWY: 3498 ofert
+tylko w ODBICIE: 643, tylko w NOWY: 2
+wspólne: 3496
+
+== desc: 3496 różnic
+  id 451: ODBICIE='"Torba do laptopa  - 12" 12,5" 13,3" 14"" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawnoś'
+         NOWY='Torba do laptopa - 12" 12,5" 13,3" 14" to wygodna torba, która ochroni laptopa w podróży i w drodze do pracy.'
+  id 452: ODBICIE='"Torba na laptop FUJITSU SIEMENS 15,6\'\'" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawnośc'
+         NOWY="Torba na laptop FUJITSU SIEMENS 15,6'' to wygodna torba, która ochroni laptopa w podróży i w drodze do pracy."
+  id 462: ODBICIE='"Torba etui do laptopa - PORT - 12,5"" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawności.'
+         NOWY='Torba etui do laptopa - PORT - 12,5" to wygodna torba, która ochroni laptopa w podróży i w drodze do pracy.'
+
+== imgs: 2647 różnic
+  id 451: ODBICIE="['https://sklep998844.shoparena.pl/userdata/public/gfx/d659d39e3614e03d7e97542af98fea37.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/e7"
+         NOWY='[]'
+  id 452: ODBICIE="['https://sklep998844.shoparena.pl/userdata/public/gfx/b26dd78fba75ce37f7975df26f39208a.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/ff"
+         NOWY='[]'
+  id 462: ODBICIE="['https://sklep998844.shoparena.pl/userdata/public/gfx/73761e124b8d154d3e08f4389a702f3b.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/62"
+         NOWY='[]'
+
+== attrs(kolejność): 510 różnic
+  id 5445: tylko ODBICIE [] | tylko NOWY []
+  id 6281: tylko ODBICIE [] | tylko NOWY []
+  id 6282: tylko ODBICIE [] | tylko NOWY []
+
+== attrs(treść): 327 różnic
+  id 5705: tylko ODBICIE [('Marka', 'Hynix'), ('Stan', 'Leżak magazynowy / z demontażu')] | tylko NOWY []
+  id 6308: tylko ODBICIE [('Pivot', 'Tak'), ('Regulacja kąta nachylenia', 'Tak'), ('Regulacja wysokości', 'Tak')] | tylko NOWY []
+  id 6316: tylko ODBICIE [('Kondycja', '"A-" poleasingowy, przetestowany'), ('Stan ekranu', 'Ekran posiada małe ryski')] | tylko NOWY [('Kondycja', '"B" poleasingowy, przetestowany'), ('Stan ekranu', 'Ekran posiada ryski, poświaty')]
+
+== avail: 40 różnic
+  id 6333: ODBICIE='1'
+         NOWY='99'
+  id 6630: ODBICIE='1'
+         NOWY='99'
+  id 6889: ODBICIE='1'
+         NOWY='99'
+
+== basket: 40 różnic
+  id 6333: ODBICIE='1'
+         NOWY='0'
+  id 6630: ODBICIE='1'
+         NOWY='0'
+  id 6889: ODBICIE='1'
+         NOWY='0'
+
+== stock: 27 różnic
+  id 469: ODBICIE='35'
+         NOWY='34'
+  id 6316: ODBICIE='0'
+         NOWY='3'
+  id 6630: ODBICIE='12'
+         NOWY='0'
+
+== cat: 16 różnic
+  id 7450: ODBICIE='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7512: ODBICIE='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7515: ODBICIE='Laptopy 14 cali'
+         NOWY='Laptopy'
+
+== price: 2 różnic
+  id 6316: ODBICIE='120'
+         NOWY='99'
+  id 9966: ODBICIE='59'
+         NOWY='69'
+
+== url: 1 różnic
+  id 6316: ODBICIE='https://kompre.pl/pl/p/Monitor-Philips-241P3L-24-1920-x-1080-A-/6316'
+         NOWY='https://kompre.pl/pl/p/Monitor-Philips-241P3L-24-1920-x-1080-B/6316'
+
+== name: 1 różnic
+  id 6316: ODBICIE='Monitor Philips 241P3L 24" 1920 x 1080 [A-]'
+         NOWY='Monitor Philips 241P3L 24" 1920 x 1080 [B]'

@@ -1,0 +1,149 @@
+Porównanie feedów, 2026-11-27 06:06 czasu PL
+ZRODLO = oryginalny feed, ODBICIE = zamanxml/feed/kompre.xml, NOWY = ten repo, 1.xml (z Shopera)
+
+################ ZRODLO  vs  ODBICIE ################
+ZRODLO: 4141 ofert, ODBICIE: 4141 ofert
+tylko w ZRODLO: 0, tylko w ODBICIE: 0
+wspólne: 4141
+
+################ ZRODLO  vs  NOWY ################
+ZRODLO: 4141 ofert, NOWY: 3499 ofert
+tylko w ZRODLO: 643, tylko w NOWY: 1
+wspólne: 3498
+
+== desc: 3498 różnic
+  id 451: ZRODLO='"Torba do laptopa  - 12" 12,5" 13,3" 14"" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawnoś'
+         NOWY='Torba do laptopa - 12" 12,5" 13,3" 14" to wygodna torba, która ochroni laptopa w podróży i w drodze do pracy.'
+  id 452: ZRODLO='"Torba na laptop FUJITSU SIEMENS 15,6\'\'" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawnośc'
+         NOWY="Torba na laptop FUJITSU SIEMENS 15,6'' to wygodna torba, która ochroni laptopa w podróży i w drodze do pracy."
+  id 462: ZRODLO='"Torba etui do laptopa - PORT - 12,5"" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawności.'
+         NOWY='Torba etui do laptopa - PORT - 12,5" to wygodna torba, która ochroni laptopa w podróży i w drodze do pracy.'
+
+== imgs: 2646 różnic
+  id 451: ZRODLO="['https://sklep998844.shoparena.pl/userdata/public/gfx/d659d39e3614e03d7e97542af98fea37.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/e7"
+         NOWY='[]'
+  id 452: ZRODLO="['https://sklep998844.shoparena.pl/userdata/public/gfx/b26dd78fba75ce37f7975df26f39208a.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/ff"
+         NOWY='[]'
+  id 462: ZRODLO="['https://sklep998844.shoparena.pl/userdata/public/gfx/73761e124b8d154d3e08f4389a702f3b.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/62"
+         NOWY='[]'
+
+== attrs(kolejność): 510 różnic
+  id 5445: tylko ZRODLO [] | tylko NOWY []
+  id 6281: tylko ZRODLO [] | tylko NOWY []
+  id 6282: tylko ZRODLO [] | tylko NOWY []
+
+== attrs(treść): 326 różnic
+  id 5705: tylko ZRODLO [('Marka', 'Hynix'), ('Stan', 'Leżak magazynowy / z demontażu')] | tylko NOWY []
+  id 6308: tylko ZRODLO [('Pivot', 'Tak'), ('Regulacja kąta nachylenia', 'Tak'), ('Regulacja wysokości', 'Tak')] | tylko NOWY []
+  id 6333: tylko ZRODLO [('Pivot', 'Tak'), ('Regulacja wysokości', 'Tak')] | tylko NOWY []
+
+== avail: 43 różnic
+  id 6333: ZRODLO='1'
+         NOWY='99'
+  id 6630: ZRODLO='1'
+         NOWY='99'
+  id 6889: ZRODLO='1'
+         NOWY='99'
+
+== basket: 43 różnic
+  id 6333: ZRODLO='1'
+         NOWY='0'
+  id 6630: ZRODLO='1'
+         NOWY='0'
+  id 6889: ZRODLO='1'
+         NOWY='0'
+
+== stock: 36 różnic
+  id 6308: ZRODLO='96'
+         NOWY='94'
+  id 6630: ZRODLO='12'
+         NOWY='0'
+  id 7178: ZRODLO='42'
+         NOWY='40'
+
+== cat: 16 różnic
+  id 7450: ZRODLO='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7512: ZRODLO='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7515: ZRODLO='Laptopy 14 cali'
+         NOWY='Laptopy'
+
+== price: 6 różnic
+  id 9492: ZRODLO='125'
+         NOWY='99'
+  id 9493: ZRODLO='165'
+         NOWY='159'
+  id 9672: ZRODLO='168'
+         NOWY='139'
+
+################ ODBICIE  vs  NOWY ################
+ODBICIE: 4141 ofert, NOWY: 3499 ofert
+tylko w ODBICIE: 643, tylko w NOWY: 1
+wspólne: 3498
+
+== desc: 3498 różnic
+  id 451: ODBICIE='"Torba do laptopa  - 12" 12,5" 13,3" 14"" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawnoś'
+         NOWY='Torba do laptopa - 12" 12,5" 13,3" 14" to wygodna torba, która ochroni laptopa w podróży i w drodze do pracy.'
+  id 452: ODBICIE='"Torba na laptop FUJITSU SIEMENS 15,6\'\'" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawnośc'
+         NOWY="Torba na laptop FUJITSU SIEMENS 15,6'' to wygodna torba, która ochroni laptopa w podróży i w drodze do pracy."
+  id 462: ODBICIE='"Torba etui do laptopa - PORT - 12,5"" Otrzymujesz sprzęt, który został dokładnie przetestowany i sprawdzony pod kątem jakości oraz pełnej sprawności.'
+         NOWY='Torba etui do laptopa - PORT - 12,5" to wygodna torba, która ochroni laptopa w podróży i w drodze do pracy.'
+
+== imgs: 2646 różnic
+  id 451: ODBICIE="['https://sklep998844.shoparena.pl/userdata/public/gfx/d659d39e3614e03d7e97542af98fea37.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/e7"
+         NOWY='[]'
+  id 452: ODBICIE="['https://sklep998844.shoparena.pl/userdata/public/gfx/b26dd78fba75ce37f7975df26f39208a.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/ff"
+         NOWY='[]'
+  id 462: ODBICIE="['https://sklep998844.shoparena.pl/userdata/public/gfx/73761e124b8d154d3e08f4389a702f3b.jpg', 'https://sklep998844.shoparena.pl/userdata/public/gfx/62"
+         NOWY='[]'
+
+== attrs(kolejność): 510 różnic
+  id 5445: tylko ODBICIE [] | tylko NOWY []
+  id 6281: tylko ODBICIE [] | tylko NOWY []
+  id 6282: tylko ODBICIE [] | tylko NOWY []
+
+== attrs(treść): 326 różnic
+  id 5705: tylko ODBICIE [('Marka', 'Hynix'), ('Stan', 'Leżak magazynowy / z demontażu')] | tylko NOWY []
+  id 6308: tylko ODBICIE [('Pivot', 'Tak'), ('Regulacja kąta nachylenia', 'Tak'), ('Regulacja wysokości', 'Tak')] | tylko NOWY []
+  id 6333: tylko ODBICIE [('Pivot', 'Tak'), ('Regulacja wysokości', 'Tak')] | tylko NOWY []
+
+== avail: 43 różnic
+  id 6333: ODBICIE='1'
+         NOWY='99'
+  id 6630: ODBICIE='1'
+         NOWY='99'
+  id 6889: ODBICIE='1'
+         NOWY='99'
+
+== basket: 43 różnic
+  id 6333: ODBICIE='1'
+         NOWY='0'
+  id 6630: ODBICIE='1'
+         NOWY='0'
+  id 6889: ODBICIE='1'
+         NOWY='0'
+
+== stock: 36 różnic
+  id 6308: ODBICIE='96'
+         NOWY='94'
+  id 6630: ODBICIE='12'
+         NOWY='0'
+  id 7178: ODBICIE='42'
+         NOWY='40'
+
+== cat: 16 różnic
+  id 7450: ODBICIE='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7512: ODBICIE='Laptopy 17 cali'
+         NOWY='Laptopy'
+  id 7515: ODBICIE='Laptopy 14 cali'
+         NOWY='Laptopy'
+
+== price: 6 różnic
+  id 9492: ODBICIE='125'
+         NOWY='99'
+  id 9493: ODBICIE='165'
+         NOWY='159'
+  id 9672: ODBICIE='168'
+         NOWY='139'
